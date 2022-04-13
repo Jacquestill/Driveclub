@@ -49,8 +49,8 @@ export default {
     position: absolute;
     padding: 50px;
     background: $dark-body-color;
-    right: 10%;
-    top: 40%;
+    right: 150px;
+    top: 350px;
     width: 600px;
 
     h2 {
