@@ -43,14 +43,13 @@ export default {
 
 @media (max-width: 991px) {
   .info-container {
-    margin: 10px 250px 70px 0;
+    margin: 0;
 
     h3 {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
     }
 
     a {
-      font-size: 1.3rem;
       font-weight: 300;
     }
   }

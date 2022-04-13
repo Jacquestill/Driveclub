@@ -146,11 +146,24 @@ export default {
     flex-direction: column-reverse;
   }
 
+  .content-img {
+    height: 300px;
+  }
+
   .content {
     position: relative;
+    height: 250px;
 
     .background-text {
       display: none;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
     }
 
     h1,
@@ -160,16 +173,10 @@ export default {
       top: 20%;
     }
 
-    h2 {
-      font-size: 2rem;
-    }
-
-    h1 {
-      font-size: 6rem;
-    }
-
-    .text {
-      width: 700px;
+    .modal-btn {
+      i {
+        opacity: 1;
+      }
     }
   }
 

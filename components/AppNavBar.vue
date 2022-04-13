@@ -8,7 +8,7 @@
         <li><nuxt-link to="/" class="link">Home</nuxt-link></li>
         <li><nuxt-link to="/contact-us" class="link">Contact Us</nuxt-link></li>
       </ul>
-      <div class="icon">
+      <div class="icon-bar">
         <i
           v-show="mobile"
           :class="{ 'icon-active': mobileNav }"
@@ -73,7 +73,7 @@ nav {
   display: flex;
   flex-direction: row;
   padding: 12px 0;
-  height: 100px;
+  height: 70px;
   width: 100%;
   margin: 0 auto;
 
@@ -120,18 +120,30 @@ nav {
     margin-right: 100px;
   }
 
-  i {
-    cursor: pointer;
-    transition: 0.5s ease all;
-    font-size: 3rem;
-    position: fixed;
-    height: 100px;
-    top: 0;
-    right: -1%;
-    padding: 15px 25px;
-    border: 1px $secondary-color solid;
-    background-color: $dark-body-color;
-    z-index: 3;
+  .icon-bar {
+    i {
+      cursor: pointer;
+      transition: 0.5s ease all;
+      font-size: 1.5rem;
+      position: fixed;
+      height: 60px;
+      top: 0;
+      right: -1%;
+      padding: 12px 20px;
+      border: 0.8px $secondary-color solid;
+      background-color: $dark-body-color;
+      z-index: 3;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  nav {
+    .logo {
+      img {
+        margin-left: 10px;
+      }
+    }
   }
 }
 </style>

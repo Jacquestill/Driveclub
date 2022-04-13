@@ -151,21 +151,18 @@ export default {
 
   .content {
     position: relative;
+    height: 250px;
 
     .background-text {
       display: none;
     }
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.3rem;
     }
 
     h1 {
-      font-size: 6rem;
-    }
-
-    .text {
-      width: 700px;
+      font-size: 2.5rem;
     }
 
     h1,
@@ -173,10 +170,17 @@ export default {
     .modal-btn {
       top: 20%;
     }
+
+    .modal-btn {
+      i {
+        opacity: 1;
+      }
+    }
   }
 
   .content-img {
     position: relative;
+    height: 300px;
     width: 100%;
     &:hover {
       transform: scale(1);

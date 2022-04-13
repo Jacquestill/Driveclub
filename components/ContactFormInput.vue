@@ -22,17 +22,17 @@ export default {
 p {
   margin: 25px 0 0;
   font-size: 0.9rem;
-  color: $secondary-color;
+  color: $primary-color;
 }
 
 .form-control {
-  border: 2px $secondary-color solid;
+  border: 1px $primary-color solid;
   background-color: transparent;
   border-radius: 0;
 }
 
 .input-height {
-  height: 60px;
+  height: 50px;
 
   &:focus {
     background: linear-gradient(
@@ -51,8 +51,7 @@ p {
 
 @media (max-width: 991px) {
   p {
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 200;
   }
 }
 </style>

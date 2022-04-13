@@ -55,9 +55,9 @@ export default {
 }
 
 .content {
-  color: $secondary-color;
+  color: $primary-color;
   margin: 10px 0 30px;
-  width: 420px;
+  width: 100%;
   font-weight: 200;
 }
 
@@ -71,17 +71,15 @@ export default {
   }
 
   .content-container {
-    margin: 50px 100px 20px;
-  }
-  .content-container-mob {
-    justify-content: start;
+    margin: 50px 30px 20px;
   }
 
-  .brand-logo {
-    height: 30px;
+  .content-container-mob {
+    justify-content: space-between;
   }
+
   .content {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
   }
 }
 </style>

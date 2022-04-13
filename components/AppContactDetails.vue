@@ -28,7 +28,7 @@ export default {
 
 .contact-details {
   border-top: 2px $secondary-color solid;
-  background-color: rgb(24, 28, 30);
+  background-color: $dark-body-color;
   padding: 80px 0;
 }
 </style>

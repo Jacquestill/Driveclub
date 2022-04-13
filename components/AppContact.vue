@@ -57,13 +57,13 @@ export default {
   font-size: 2.5rem;
   font-weight: 700;
   color: transparent;
-  -webkit-text-stroke: 1px $secondary-color;
+  -webkit-text-stroke: 1px $primary-color;
 }
 
 @media (max-width: 991px) {
   .contact-car {
     background-image: url('./../assets/img/hero-contact.jpg');
-    height: 800px;
+    height: 500px;
     z-index: 2;
   }
   .pattern {
@@ -71,15 +71,15 @@ export default {
   }
 
   .home-content {
-    margin-top: 250px;
+    margin: 120px 10px 0;
   }
 
   .heading {
-    font-size: 6rem;
+    font-size: 3rem;
   }
 
   .sub-heading {
-    font-size: 3.5rem;
+    font-size: 1.8rem;
   }
 }
 </style>

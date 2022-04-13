@@ -126,17 +126,17 @@ export default {
     height: auto;
 
     h1 {
-      font-size: 6rem;
+      font-size: 2.5rem;
     }
 
     h2,
     p {
-      font-size: 2rem;
+      font-size: 1rem;
     }
 
     .close-btn {
-      font-size: 3rem;
-      padding: 16px 30px;
+      font-size: 1.5rem;
+      padding: 10px 20px;
     }
   }
 

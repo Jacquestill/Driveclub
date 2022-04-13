@@ -55,26 +55,33 @@ export default {
 
   p {
     color: $secondary-color;
+    font-weight: 300;
   }
 }
 
 @media (max-width: 991px) {
+  .contact-container {
+    margin: 0 30px;
+  }
+
   .icon-container {
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 
     .icon {
-      font-size: 1.8rem;
-      margin-top: 20px;
+      font-size: 1.3rem;
+      margin-top: 12px;
     }
   }
 
-  h3 {
-    font-size: 1.5rem;
-  }
+  .content {
+    h3 {
+      font-size: 1.2rem;
+    }
 
-  p {
-    font-size: 1.3rem;
+    p {
+      font-size: 1.2rem;
+    }
   }
 }
 </style>

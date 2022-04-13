@@ -26,7 +26,7 @@ export default {
 
 @media (max-width: 991px) {
   .logo {
-    height: 30px;
+    height: 20px;
   }
 }
 </style>

@@ -39,14 +39,14 @@ export default {}
   left: 0;
   height: 100vh;
   width: 100%;
-  padding: 0 60px;
+  padding: 0 10px;
   overflow: hidden;
   z-index: 99;
 
   .close-btn {
     background-color: $dark-body-color;
     border: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 16px 40px;
     position: fixed;
     top: 0;
@@ -56,21 +56,21 @@ export default {}
 
 h2 {
   color: $primary-color;
-  font-size: 4rem;
-  font-weight: 500;
-  margin: 100px 0 0;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 100px 0 50px;
 }
 
 li {
   list-style: none;
-  padding-top: 50px;
+  margin-bottom: 15px;
 }
 
 .link {
   text-decoration: none;
-  color: $secondary-color;
-  font-weight: 300;
-  font-size: 2.5rem;
+  color: $primary-color;
+  font-weight: 200;
+  font-size: 1.5rem;
 
   &:hover {
     color: $tertiary-color;

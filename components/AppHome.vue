@@ -61,11 +61,11 @@ export default {
   .sub-heading {
     font-size: 2.5rem;
     color: transparent;
-    -webkit-text-stroke: 1px $secondary-color;
+    -webkit-text-stroke: 0.8px $primary-color;
   }
 
   .content {
-    color: $secondary-color;
+    color: $primary-color;
     margin: 30px 0 50px;
     width: 420px;
     font-weight: 200;
@@ -119,32 +119,34 @@ export default {
 @media (max-width: 991px) {
   .home-car {
     background-image: url('./../assets/img/hero-mobile.jpg');
-    height: 1150px;
+    height: 470px;
+    background-repeat: no-repeat;
   }
 
   .home-content {
+    margin: 80px 10px 0;
+
     .pattern {
       height: 100%;
     }
-  }
 
-  .heading {
-    margin-top: 300px;
-    font-size: 6rem;
-  }
+    .heading {
+      font-size: 3rem;
+    }
 
-  .sub-heading {
-    font-size: 3.5rem;
-    margin: 0;
-  }
+    .sub-heading {
+      font-size: 1.8rem;
+      margin: 0;
+    }
 
-  .content {
-    font-size: 1.5rem;
-    width: 800px;
+    .content {
+      font-size: 0.9rem;
+      width: 100%;
+    }
   }
 
   .contact-btn {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 </style>

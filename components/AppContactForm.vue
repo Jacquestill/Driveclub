@@ -60,13 +60,13 @@ export default {
     p {
       margin: 25px 0 0;
       font-size: 0.9rem;
-      color: $secondary-color;
+      color: $primary-color;
     }
   }
 }
 
 .form-control {
-  border: 2px $secondary-color solid;
+  border: 1px $primary-color solid;
   background-color: transparent;
   border-radius: 0;
 }
@@ -117,15 +117,20 @@ export default {
       top: 0;
       right: 0;
       width: 100%;
+      padding: 30px;
+    }
+
+    h2 {
+      font-size: 1.5rem;
     }
 
     p {
       font-size: 1.5rem;
-      font-weight: 300;
+      font-weight: 200;
     }
 
     .send-btn {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       margin-bottom: 30px;
     }
   }
