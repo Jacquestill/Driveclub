@@ -1,3 +1,5 @@
+// This component renders the contact form.
+
 <template>
   <div class="form-section">
     <div class="form-container">

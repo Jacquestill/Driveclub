@@ -1,3 +1,6 @@
+// The component renders the different input boxes for the AppContactForm. It
+imports the data from data.js in assets
+
 <template>
   <div>
     <p>{{ infoDetail.name }}</p>

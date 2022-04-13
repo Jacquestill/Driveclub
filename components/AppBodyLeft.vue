@@ -1,3 +1,6 @@
+// This is the body element to display the text content on the left side of the
+screen and the image on the right side. // The component is for La Ferrari.
+
 <template>
   <div class="body-container">
     <div class="content">

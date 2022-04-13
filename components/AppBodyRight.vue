@@ -1,3 +1,6 @@
+// This is the body element to display the text content on the right side of the
+screen and the image on the left side. // The component is for Model S
+
 <template>
   <div class="body-container">
     <div class="content">

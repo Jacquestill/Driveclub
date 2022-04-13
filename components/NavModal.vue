@@ -1,3 +1,6 @@
+// The component is the mobile version navbar. It is imported into the
+AppNavBar.
+
 <template>
   <transition name="slide" appear>
     <div class="content-container">

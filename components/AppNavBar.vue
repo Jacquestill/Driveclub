@@ -1,3 +1,6 @@
+// This component is the navbar for large screens and it containes the mobile
+navbar as a component.
+
 <template>
   <header>
     <nav>

@@ -1,3 +1,6 @@
+// The component renders the data imported from data.js from assets to display
+the different media logos. The component exports to AppFooter.
+
 <template>
   <img
     class="logo"

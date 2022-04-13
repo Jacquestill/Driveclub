@@ -1,3 +1,4 @@
+// Data for ContactDetails component
 export const contactDetails = [
   {
     id: 1,
@@ -19,6 +20,7 @@ export const contactDetails = [
   },
 ]
 
+// Data for ContactFormInput component
 export const contactForms = [
   {
     id: 1,
@@ -37,6 +39,7 @@ export const contactForms = [
   },
 ]
 
+// Data for FooterLogos component
 export const footerLogo = [
   {
     id: 1,
@@ -65,6 +68,7 @@ export const footerLogo = [
   },
 ]
 
+// Data for FooterLinks component
 export const footerLink = [
   {
     id: 1,
@@ -84,6 +88,7 @@ export const footerLink = [
   },
 ]
 
+// Data for AppBodyLeft and AppBodyRight component
 export const bodyCardContent = [
   {
     id: 1,
@@ -97,6 +102,7 @@ export const bodyCardContent = [
   },
 ]
 
+// Data for BodyModal component
 export const bodyModalCard = [
   {
     id: 1,

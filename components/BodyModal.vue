@@ -1,3 +1,7 @@
+// This component is the full screen popup modal for the different cars. It
+imports the data from the data.js file in assets to render the data in
+AppBodyLeft and AppBodyRight.
+
 <template>
   <transition name="slide" appear>
     <div class="modal-popover">

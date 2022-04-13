@@ -1,3 +1,6 @@
+// This component it the hero section of the contact page. It containes the text
+and the car background.
+
 <template>
   <div id="contact" class="contact-car container-fluid">
     <app-nav-bar />

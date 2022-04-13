@@ -1,3 +1,5 @@
+// The is the footer component that imports the FooterLinks and FooterLogos.
+
 <template>
   <footer class="footer flex-container flex-container-mob container-fluid">
     <div class="logos content-container">

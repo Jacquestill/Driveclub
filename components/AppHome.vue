@@ -1,3 +1,6 @@
+// This component it the hero section of the home page. It containes the text
+and the car background.
+
 <template>
   <div id="home" class="home-car container-fluid">
     <app-nav-bar />

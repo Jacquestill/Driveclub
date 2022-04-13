@@ -1,3 +1,6 @@
+// This component imports the different contact method data from the data.js
+file in assets and exports to the AppFooterDetails file.
+
 <template>
   <div class="contact-container">
     <div class="icon-container">

@@ -1,3 +1,5 @@
+// This component renders all the data from the ContactDetail file.
+
 <template>
   <div class="contact-details">
     <contact-detail

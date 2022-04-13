@@ -1,3 +1,6 @@
+// The component renders the data imported from data.js from assets to display
+the different links, Models and More. The component exports to AppFooter.
+
 <template>
   <div class="info-container">
     <h3>{{ linkDetail.header }}</h3>
