@@ -174,6 +174,8 @@ export default {
     }
 
     .modal-btn {
+      margin-top: 50px;
+
       i {
         opacity: 1;
       }
